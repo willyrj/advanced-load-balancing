@@ -9,11 +9,11 @@ providers:
 
 additionalArguments:
   - "--certificatesresolvers.le-staging.acme.tlschallenge=true"
-  - "--certificatesresolvers.le-staging.acme.email=<REPLACE_ME>"
+  - "--certificatesresolvers.le-staging.acme.email=willy@rjurado.com"
   - "--certificatesresolvers.le-staging.acme.storage=/data/acme.json"
   - "--certificatesresolvers.le-staging.acme.caserver=https://acme-staging-v02.api.letsencrypt.org/directory"
   - "--certificatesresolvers.le.acme.tlschallenge=true"
-  - "--certificatesresolvers.le.acme.email=<REPLACE_ME>"
+  - "--certificatesresolvers.le.acme.email=willy@rjurado.com"
   - "--certificatesresolvers.le.acme.storage=/data/acme.json"
 
 logs:
